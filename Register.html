@@ -1,0 +1,127 @@
+
+<html ng-app>
+<head>
+</head>
+<title>
+</title>
+<link href="css\bootstrap.min.css" rel="stylesheet" />
+<script src="angular.min.js"></script>
+<style type="text/css">
+
+#img{
+	width: 30px;
+}
+#first{
+	position: relative;
+	width: 30%;
+	height: 7%;
+	border: 2px solid black;
+	border-bottom: none;
+	border-radius: 10px; 
+	box-shadow: 2px 0px 2px black;
+}
+#last{
+	width: 30%;
+	height: 7%;
+	border: 2px solid black;
+	border-radius: 10px;
+	border-top: none;
+	box-shadow: 2px 2px 2px black; 
+}
+#eml{
+	width: 30%;
+	height: 7%;
+	border: 2px solid black;
+	border-radius: 10px; 
+	box-shadow: 2px 2px 2px black;
+}
+#pwd{
+	width: 30%;
+	height: 7%;
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px black; 
+
+	}
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+}
+#box{
+	padding-top: 2%;
+}
+#box1{
+	position: absolute;
+    top: 25%;
+    width: 30%;
+    left: 40%;	
+}
+#box2{
+	position: relative;
+    top: 0px;
+    width: 100%;
+}
+#box3{
+	
+	position: absolute;
+    top: 42%;
+    width: 30%;
+    left: 40%;;
+}
+#box4{
+	
+	position: absolute;
+    top: 52%;
+    width: 30%;
+    left: 40%;
+}
+#btnupr{
+	position: absolute;
+    top: 14%;
+    left: 50%;
+}
+#btndownr{
+	position: absolute;
+    bottom: 30%;
+    left: 53%;
+    	
+}
+#btnupl{
+	position: absolute;
+    top: 14%;
+    left: 55.5%;
+    opacity: 0.5;
+    	
+}
+</style>
+<body >
+<center>	
+<a id="btnupl" href="login.html" class="btn btn-md btn-primary">Login</a>
+	<a id="btnupr" href="" class="btn btn-md btn-primary">Register</a>
+	
+	
+<div id= "box1"class="input-group input-group-lg col-lg-3">
+  <span class="input-group-addon"><img src="human.png" alt="at" height="20px" width="20px"></img></span>
+  <input type="text" class="form-control" placeholder="First Name" aria-describedby="sizing-addon2">
+
+
+<div id= "box2"class="input-group input-group-lg ">
+  <input type="text" class="form-control" placeholder="LastName" aria-describedby="sizing-addon2">
+</div>
+</div>
+
+<div id= "box3" class="input-group input-group-lg col-lg-3">
+  <span class="input-group-addon"><img src="at.png" alt="at" height="20px" width="20px"></img></span>
+  <input type="text" class="form-control" placeholder="Enter a valid Email id" aria-describedby="sizing-addon2">
+</div>
+
+<div id= "box4" class="input-group input-group-lg col-lg-3">
+  <span class="input-group-addon"><img src="lock.png" alt="at" height="20px" width="20px"></img></span>
+  <input type="Password" class="form-control" placeholder="Password-atleast 6 characters" aria-describedby="sizing-addon2">
+</div>
+<br>
+<a id="btndownr"href="" class="btn btn-md btn-primary">Register</a>
+</center>
+</img>
+</body>
+</html>
